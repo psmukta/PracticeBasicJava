@@ -13,7 +13,7 @@ public class ArrayListExcercise {
 		colorlist.add("yellow");
 		colorlist.add("blue");
 		colorlist.add("white");
-
+		//colorlist.add(null);
 
 		System.out.println("print list :"+colorlist);
 		Collections.sort(colorlist);
