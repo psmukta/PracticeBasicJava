@@ -27,12 +27,13 @@ public class HowToPutTwoArrayListIntoHashMap {
 	//for(int i=0; i<imageFile.size(); i++) {
    // mappedFiles.put(imageFile.get(i), musicFile.get(i));
 	
-	map.put(l1, l2);
-	//System.out.println(map);
+	//map.put(l1, l2);
+
+	System.out.println(map);
 	Iterator<Entry<List<String>, List<Integer>>>Itr=map.entrySet().iterator();
 	while(Itr.hasNext()) {
 		Entry<List<String>, List<Integer>>entry=Itr.next();
-		System.out.println("key  :"+entry.getKey()+"value :"+ entry.getValue());
+		System.out.println("key  :"+entry.getKey()+"\n" +" value :"+ entry.getValue());
 	}
 	
 	
